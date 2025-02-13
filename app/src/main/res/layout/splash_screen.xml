@@ -6,12 +6,20 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:background="@color/white"
+    android:orientation="vertical"
     tools:context=".SplashScreen">
 
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:src="@drawable/splashlogo"
+    tools:context=".SplashScreen"/>
+
+
+    <ImageView
+        android:layout_width="150px"
+        android:layout_height="150px"
+        android:src="@drawable/ic_launcher_background"
         />
 
 </LinearLayout>

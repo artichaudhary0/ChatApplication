@@ -6,15 +6,19 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
+    android:layout_margin="24dp"
     tools:context=".CreateChatActivity">
 
     <EditText
         android:id="@+id/chatNameInput"
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"/>
+        android:layout_width="match_parent"
+        android:hint="Enter name"
+        android:layout_height="wrap_content"/>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:text="Create"
+
         android:id="@+id/saveChat"/>
 </LinearLayout>

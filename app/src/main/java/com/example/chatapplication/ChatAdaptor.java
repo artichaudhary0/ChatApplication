@@ -53,11 +53,12 @@ public class ChatAdaptor extends RecyclerView.Adapter<ChatAdaptor.ViewHolder> {
         public  ViewHolder(View itemView)
         {
             super(itemView);
-//            chatName = itemView.findViewById(R.id.chatName);
+            chatName = itemView.findViewById(R.id.chatName);
         }
 
     }
 
 }
+
 
 //
